@@ -14,6 +14,7 @@ async def send_apk(message: Message):
                                   caption='Bu ilova faqat Android uchun !', )
 
 
+
 @dp.message_handler(text="Web-siteni ko'rish")
 async def select_loc(message: Message):
     photo_file = InputFile(path_or_bytesio="downloads/rasm.jpg")
@@ -28,6 +29,7 @@ async def select_loc(message: Message):
 async def send_apk(message: Message):
     await message.answer_document('BQACAgIAAxkBAAPLZgfoxDZA0gY_koJ6X984d4zf0WgAArJHAALM8kBICgRTWfiaWoo0BA',
                                   caption='Bu ilova faqat Android uchun !', )
+
 
 
 @dp.message_handler(text="Admin Panelni ko'rish")
